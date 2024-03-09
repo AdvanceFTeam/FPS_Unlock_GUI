@@ -91,7 +91,6 @@ class FPSBoosterGUI:
         with open(settings_file_path, 'w') as file:
             json.dump(config, file, indent=2)
 
-    # Move the update_idletasks call here
         self.root.update_idletasks()
 
     def edit_client_settings(self):
